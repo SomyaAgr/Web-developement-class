@@ -1,53 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
     <Style>
-        h1{
+        h1 {
             background-color: red;
             text-align: center;
-            color: black;
-            margin: 0;
+            margin: 0px;
         }
-        div{
-            margin: 0;
-            border: 2px solid black;
+
+        #navBar {
+            border-radius: 2px solid black;
+            background-color: green;
             overflow: auto;
-            background-color: #E98378;
         }
-        ul{
-            float: right;
-        }
-        li{
-            float: left;
-            list-style-type: none;
+
+        li {
             border: 2px solid black;
-            padding: 10px;  /*if u want to getthe space inside the box for thar we will use padding property */
+            background-color: gold;
+            color: black;
             margin: 10px;
+            padding: 10px;
+            list-style-type: none;
+            float: left;
             border-radius: 100px;
-            background-color: #bbb;
         }
-        a{
-            text-decoration: none; 
+
+        a {
+            text-decoration: none;
             color: black;
         }
 
+        ul {
+            float: right;
+        }
+
+        /* #mainBox {
+            border: 2px solid black;
+            overflow: auto;
+            height: auto;
+
+        } */
+
+
+        #RED {
+            height: 200px;
+            /* border: 2px solid black; */
+            background-color: red;
+            margin: 0;
+            width: 25%;
+            padding: 0;
+        }
+
+        #ORANGE {
+            height: 200px;
+            /* border: 2px solid black; */
+            background-color: orange;
+            margin: 0;
+            width: 25%;
+            /* padding: 0; */
+            float: left;
+        }
+
+        #RED1 {
+            /* border: 2px solid black; */
+            background-color: red;
+            width: 25%;
+            margin: 0;
+            float: right;
+            padding: 0;
+            height: 200px;
+
+        }
+
+        #GREEN {
+            /* border: 2px solid black; */
+            background-color: green;
+            width: 25%;
+            margin: 0px;
+            float: right;
+            padding: 0;
+            height: 200px;
+        }
+
+        #IMAGE {
+            /* border: 2px solid black; */
+            background-color: lightblue;
+            width: 27%;
+            margin: 0px;
+            float: left;
+            padding: 0;
+        }
     </Style>
-</head>
-<body>
-    <h1>INDIA</h1>
-    <div>
-        <ul>
-            <li> <a href="">HOME </a></li>
-            <li> <a href="">ABOUT US</a></li>
-            <li> <a href="">CONTACT US</a></li>
-            <li> <a href="">LOGIN</a></li>  
-        </ul>      
-    </div>
-    <div id="box1">
-        <div id="red"></div>
-        <div id="image"></div>
-        <div id="orange"></div>
-    </div>
-    <div id="box2"></div>
-    <h1></h1>
-</body>
+    </head>
+
+    <body>
+        <h1>INDIA</h1>
+        <div id="navBar">
+            <ul>
+                <li><a href="">home </a></li>
+                <li><a href="">AboutUs</a></li>
+                <li><a href="">ContactUs</a></li>
+                <li><a href="">Login</a></li>
+            </ul>
+        </div>
+        <div id="mainBox">
+            <div id="RED">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ut fugit ullam eligendi laboriosam
+                    perspiciatis magnam fugiat id laborum soluta consectetur, exercitationem cupiditate ab doloribus
+                    non. Expedita et quas autem!</p>
+            </div>
+            <div id="ORANGE">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, nobis omnis sed doloremque
+                    cupiditate magni accusantium. Sint similique cumque eligendi numquam aliquam sapiente voluptatem
+                    culpa aliquid, ratione distinctio? Pariatur, dicta.</p>
+            </div>
+            <div id="IMAGE">
+                <img src="./images/flg.jfif" alt="indian flag">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci maxime soluta libero! Ducimus
+                    corrupti dolorum, unde repudiandae assumenda sed fugit iure ratione totam laborum qui deleniti? Nam
+                    non minus officia.</p>
+            </div>
+            <div id="RED1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ratione ab eos autem laudantium iste
+                    consequuntur nam similique ea ipsa earum esse illum magni dolorum culpa, sunt at excepturi
+                    obcaecati?</p>
+            </div>
+            <div id="GREEN">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur impedit suscipit a eum molestias?
+                    Omnis, magni iusto voluptas, quibusdam voluptatem corporis eveniet debitis perspiciatis totam, vel
+                    quam accusantium porro magnam?</p>
+            </div>
+        </div>
+        <div>
+            <img src="./images/flg.jfif" alt="FLAG IMAGE">
+        </div>
+        <h1>JAI HINDI</h1>
+    </body>
+
 </html>

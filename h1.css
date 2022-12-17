@@ -1,0 +1,6 @@
+marquee{
+    background-image: radial-gradient(red , yellow);
+}
+marquee:hover{
+    background-image: radial-gradien(pink purple);
+}
